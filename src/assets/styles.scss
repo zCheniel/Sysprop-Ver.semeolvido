@@ -21,8 +21,8 @@ body {
 /**********************************Cuerpo**************************/
 
 .container {
+  padding-top: 50px;
   max-width: 800px;
-  margin: 0 auto;
   padding: 20px;
   background-color: #f1f1f1;
   border-radius: 10px;
@@ -75,16 +75,43 @@ h1 {
 
 #cuerpo{
   margin-left: 100px;
+  padding-top: 10px;
 }
 
 
 /***********Dashboard****************/
 
 .cuerpoDashboard{
-  margin-left: 100px;
+  padding-top: 50px;
+  margin-left: 130px;
   margin-right: 60px;
 }
 
 
-/**************SIDEBAR********************/
+/**************Mantenimiento********************/
+.maintenance-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 
+#cuadroMantenimiento{
+  display: flex;
+  justify-content: center;
+  border: 3px solid black;
+  padding: 20px;
+  border-radius: 10px;
+
+  Button{
+    width: 200px;
+    height: 150px;
+  }
+
+}
+/**************Mantenimiento********************/
+
+#cuerpoAyuda{
+  padding-top: 50px;
+}

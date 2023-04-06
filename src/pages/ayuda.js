@@ -31,7 +31,8 @@ function Faq() {
   ];
 
   return (
-    <div className="container">
+    <div id="cuerpoAyuda">
+    <div  className="container">
       <h1>Preguntas frecuentes</h1>
       {faqs.map((faq, index) => (
         <div key={index}>
@@ -44,6 +45,7 @@ function Faq() {
         </div>
       ))}
     </div>
+  </div>
   );
 }
 
